@@ -1,0 +1,102 @@
+@media(max-width:1200px){
+   /* story design  */
+ .our_story .swiper-pagination{
+    bottom: -5px;
+ }
+}
+
+@media(max-width:991px){
+    /* Root  */
+:root{
+
+    --h1-extra-bold: 70px;
+    --h1-bold: 50px;
+     --h1: 40px;
+    --h2: 30px;
+    --h3: 24px;
+    --h4: 20px;
+    --p: 16px;
+    --p-medium: 18px;
+}
+
+   /* banner section design  */
+   .banner_section .main_content .img img{
+      padding: 80px 40px 80px;
+}
+
+.header_wrapper .brand img{
+    width: 200px;
+}
+
+ /* story design  */
+ .our_story .swiper-pagination{
+     bottom: 0px;
+  }
+  .our_story .swiper-pagination span{
+    width: 10px;
+    height: 10px;
+  }
+  .contact{
+    background-position: right center;
+  }
+
+
+}
+@media(max-width:767px){
+
+    /* product section design  */
+    .product_section .product_img img{
+        margin-bottom: 50px;
+        width: 70%;
+        height: 70%;
+      }
+}
+
+
+@media(max-width:575px){
+        /* Root  */
+:root{
+
+    --h1-extra-bold: 50px;
+    --h1-bold: 40px;
+     --h1: 30px;
+    --h2: 24px;
+    --h3: 20px;
+    --h4: 18px;
+    --p: 15px;
+    --p-medium: 16px;
+}
+
+/* header design  */
+
+.header_wrapper .brand img{
+    width: 150px;
+}
+
+    /* product section design  */
+    .product_section .product_img img{
+        margin-bottom: 50px;
+        width: 80%;
+        height: 80%;
+      }
+
+
+
+}
+
+@media(max-width:375px){
+    /* Root  */
+:root{
+
+--h1-extra-bold: 40px;
+--h1-bold: 35px;
+ --h1: 28px;
+--h2: 24px;
+--h3: 20px;
+--h4: 18px;
+--p: 14px;
+--p-medium: 15px;
+}
+
+
+}
